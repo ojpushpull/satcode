@@ -2,7 +2,7 @@ import React, { useCallback } from 'react';
 import { AppBar, Container, IconButton, makeStyles, Toolbar, Typography, useScrollTrigger, useTheme } from '@material-ui/core';
 import Landing from '../src/Landing';
 import Skills from '../src/Skills';
-import Projects from '../src/Projects';
+
 import data from '../data.json';
 import { darkTheme, lightTheme } from '../src/theme';
 import { Brightness4, Brightness7 } from '@material-ui/icons';
@@ -17,36 +17,11 @@ const useStyles = makeStyles(theme => ({
   }
 }))
 
-export async function getStaticProps() {
-  const baseURI = projects.baseURI
-  const repos = projects.repositories
-  const reqInit = {
-    headers: { 
-      'Authorization': `token ${process.env.PAT}`
-    }
-  }
-  const fullRepoData = await Promise.allSettled(
-    repos.map(
-      async name => {
-        const repo = await fetch(baseURI + name, reqInit).then(res => res.json());
-        const langs = await fetch(baseURI + name + "/languages", reqInit).then(res => res.json())
-        return {
-          ...repo,
-          languages: Object.getOwnPropertyNames(langs)
-        };
-      }
-    )
-  );
 
-  return {
-    props: {
-      projects: fullRepoData
-    },
-    revalidate: 60
-  }
-}
+  
 
-export default function Index({ projects, setTheme }) {
+
+export default function Index({  setTheme }) {
 
   const classes = useStyles()
 
@@ -74,7 +49,6 @@ export default function Index({ projects, setTheme }) {
       <Container>
         <Landing />
         <Skills />
-        <Projects data={projects}/>
       </Container>
     </div>
   );

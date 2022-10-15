@@ -42,7 +42,7 @@
         "Languages known": [
             "JavaScript",
             "Java",
-            "C#",
+            "csharp",
             "Python",
             "HTML5",
             "CSS3"
@@ -79,17 +79,6 @@
             "Expo",
             "Android",
             "Flutter"
-        ]
-    },
-    "projects": {
-        "baseURI": "https://github.com/ojjuiceman?tab=repositories",
-        "repositories": [
-            "Buckets of Foods Lists",
-            "Portfolio",
-            "Blog",
-            "Job application bot",
-            "Password generator",
-            "Watermarke React site"
         ]
     },
     "theme": {
