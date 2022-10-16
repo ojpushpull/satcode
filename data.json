@@ -1,7 +1,7 @@
 {
     "name": "Okera Johnson",
     "landing": {
-        "title": "Full stack Developer Okera Johnson",
+        "title": "Full stack developer Okera Johnson",
         "subtitles": [
             "Full stack developer ",
             "Mobile and Desktop applications",
@@ -81,6 +81,31 @@
             "Flutter"
         ]
     },
+    "experience": {
+        "Recent Works": [
+            {
+                "projects": "Watermarke Site",
+                "summary": "React site developed for data company",
+                "url": "https://github.com/ojjuiceman/fdraft"
+            },
+            {
+                "projects": "Password Generator",
+                "summary": "Password generator and sends as email",
+                "url": "https://github.com/ojjuiceman/jay4"
+            },
+            {
+                "projects": "Okera Johnson Tech Blog",
+                "summary": "My personal tech blog",
+                "url": "https://www.okerajohnson.com/"
+            },
+            {
+                "projects": "Shopify Hydrogen Site",
+                "summary": "Website developed for ecommerce",
+                "url": "https://github.com/ojjuiceman/hydroj"
+            }
+        ]
+        },
+    
     "theme": {
         "light": {
             "palette": {

@@ -2,7 +2,7 @@ import React, { useCallback } from 'react';
 import { AppBar, Container, IconButton, makeStyles, Toolbar, Typography, useScrollTrigger, useTheme } from '@material-ui/core';
 import Landing from '../src/Landing';
 import Skills from '../src/Skills';
-
+import Experience from '../src/Experience';
 import data from '../data.json';
 import { darkTheme, lightTheme } from '../src/theme';
 import { Brightness4, Brightness7 } from '@material-ui/icons';
@@ -21,7 +21,7 @@ const useStyles = makeStyles(theme => ({
   
 
 
-export default function Index({  setTheme }) {
+export default function Index({  projects, setTheme }) {
 
   const classes = useStyles()
 
@@ -49,6 +49,7 @@ export default function Index({  setTheme }) {
       <Container>
         <Landing />
         <Skills />
+        <Experience />
       </Container>
     </div>
   );
