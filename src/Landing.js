@@ -80,14 +80,18 @@ export default function Landing() {
                                         </Tooltip>
                                     </Zoom>
                                 </a>
+                                
                             </Grid>
                         )
+                        
                     }
+                    
                 </Grid>
+                <Typography component="h2" marginTop="7px">Social and Contact</Typography>
             </Grid>
 
             <Hidden mdDown>
-                <Fade in={true} style={{ transitionDelay: '100ms' }}>
+                <Fade in={true} style={{ transitionDelay: '10ms' }}>
                     <Grid item lg={6}>
                         <Image
                             src="/landing.svg"
