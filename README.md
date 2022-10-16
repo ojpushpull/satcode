@@ -19,7 +19,7 @@
             ```
             {
                 "title": String, // Main heading on landing
-                "subtitles: String[], // Animated Subheaders
+                "subtitles: String[], // d Subheaders
                 "professionalDetails": {
                     "alt": String, // Tooltip text that appears on hover,
                     "icon": String, // Icon name from simpleicons.org,
