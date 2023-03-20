@@ -35,7 +35,7 @@ export default function Projects({ data }) {
                         <div>
                             <Image
                                 alt="Projects"
-                                src="/ojp2.jpg"
+                                src="/ojc.png"
                                 width="600"
                                 height="600"
                             />
