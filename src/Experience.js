@@ -73,7 +73,7 @@ export default function Experience() {
                                         url,
                                     }, i) =>
                                         <Grid item xs={12} sm key={i}>
-                                            <Fade in={animate} style={{ transitionDelay: `${200 * i}ms` }}>
+                                            <Fade in={animate} style={{ transitionDelay: `${10 * i}ms` }}>
                                                 <Card className={classes.card}>
                                                     <CardActionArea
                                                         className={classes.cardActionArea}

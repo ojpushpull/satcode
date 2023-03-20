@@ -55,7 +55,8 @@
             "Netlify",
             "Material-UI",
             "Figma",
-            "Bootstrap"
+            "Bootstrap",
+            "Shopify"
         ],
         "Backend, Database and Cloud": [
             "Node.js",
@@ -63,12 +64,14 @@
             "FastAPI",
             "MongoDB",
             "MySQL",
+            
             {
                 "alt": "Azure",
                 "icon": "microsoftazure"
             },
             "Heroku",
             "Firebase"
+            
         ],
         "Mobile": [
             {
@@ -84,9 +87,9 @@
     "experience": {
         "Recent Works": [
             {
-                "projects": "Watermarke Site",
-                "summary": "React site developed for data company",
-                "url": "https://watermarke.netlify.app"
+                "projects": "Trivia Website",
+                "summary": "React and Ruby on Rails Trivia site",
+                "url": "https://ojtriv.onrender.com/Registration"
             },
             {
                 "projects": "Password Generator",
@@ -99,9 +102,19 @@
                 "url": "https://www.okerajohnson.com/"
             },
             {
-                "projects": "Shopify Hydrogen Site",
-                "summary": "Website developed for ecommerce",
-                "url": "https://github.com/ojjuiceman/hydroj"
+                "projects": "Shopify Pet Care Site",
+                "summary": "Shopify website developed with hydrogen",
+                "url": "https://www.dogcare.cc"
+            },
+            {
+                "projects": "Arduino Light Detection Sketch",
+                "summary": "Photoresistor running on Arduino R3 board",
+                "url": "https://github.com/ojjuiceman/lightdetect"
+            },
+            {
+                "projects": "Watermarke Business site",
+                "summary": "React Website developed for small buisness",
+                "url": "https://watermarke.netlify.app/"
             }
         ]
         },
