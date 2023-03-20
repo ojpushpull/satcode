@@ -4,6 +4,7 @@ import Image from 'next/image'
 import { useRef } from "react";
 import useAnimate from "./useAnimate";
 
+
 const useStyles = makeStyles(theme => ({
     cont: {
         minHeight: `calc(100vh - ${theme.spacing(4)}px)`,
